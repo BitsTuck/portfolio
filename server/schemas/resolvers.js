@@ -1,4 +1,4 @@
-const { Contact } = require('../models')
+const { Contact } = require('../models/Contact')
 const { signToken, AuthenticationError } = require('../utils/auth');
 
 
@@ -10,7 +10,7 @@ const resolvers = {
             return { token, contact }
         }
 
-    }
+    },
 }
 
 module.exports = resolvers
