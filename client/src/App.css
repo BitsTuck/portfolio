@@ -1,0 +1,9 @@
+body {
+    /* background-image: url('./assets/background.jpg'); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.title h1 {
+    font-family:'La Belle Aurore';
+}

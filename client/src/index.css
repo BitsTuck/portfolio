@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin';
+}
+
+body {
+    background-color: #183C58;
+}
+
+.title {
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.title h1 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 12rem;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+}
+
+/* .title h3 {
+    font-size: 4rem;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center; 
+    margin: -7rem
+
+} */
+
+.navbar {
+    width: 100%;
+    /* background-color: #183C58; */
+    /* margin: 8rem; */
+    text-align: center;
+    margin: -105px 0 0 0;
+    position: relative;
+}
+
+.navbar li {
+    color: white;
+    font-size: 3rem;
+    display:inline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 150px;
+
+}

@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <>
-        <h1>Elizabeth Tucker</h1>
+        <p>
+            Hello! 
+        </p>
+           
         </>
     )
 }

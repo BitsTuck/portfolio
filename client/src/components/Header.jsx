@@ -6,9 +6,10 @@ import { useState } from 'react';
 const Header = () => {
     return (
         <>
-        <div className="banner-div">
-            <img className="banner" src={background} alt={"Elizabeth Tucker"} />
-        </div>
+
+        <div className="title">
+                <h1>Elizabeth Tucker</h1>
+            </div>
         <nav>
             <div className="navbar">
                 <ul>
