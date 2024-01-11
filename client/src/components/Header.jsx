@@ -9,15 +9,8 @@ const Header = () => {
 
             <div className="title">
                 <h1>Elizabeth Tucker</h1>
+                <span>Developer</span>
             </div>
-            <nav>
-                <div className="navbar">
-                    <p>
-                        Developer
-                    </p>
-
-                </div>
-            </nav>
         </>
     )
 }

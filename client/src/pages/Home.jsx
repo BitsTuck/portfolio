@@ -7,48 +7,72 @@ const Home = () => {
         <>
             <Container>
                 <Row>
-                <Col xs={1}>
-                    <div className="side-nav"><h2>About</h2></div>
-                </Col>
-                <Col md={11}>
-                <div className="about-card w-100">
-                    <p>
-                        Hello! Thank you for visiting my portfolio. I am Elizabeth Tucker, a Junior Web Developer and recent graduate of the University of Texas at Austin's Full-Stack MERN Coding Bootcamp.
-             
-                    </p>
-                </div>
-                </Col>
+                    <Col xs={1}>
+                        <div className="side-nav"><h2>About</h2></div>
+                    </Col>
+                    <Col md={10}>
+                        <div className="about-card w-100">
+                            <p>
+                                Hello! Thank you for visiting my portfolio. I am Elizabeth Tucker, a Junior Web Developer and recent graduate of the University of Texas at Austin's Full-Stack MERN Coding Bootcamp.
+                                <br />
+                                <br />
+                                My passions lie in problem solving, and in creating simple, elegant code. I am a fierce advocate for the romance genre, its writers, and its readers.
+
+                            </p>
+                        </div>
+                    </Col>
                 </Row>
                 <Row className="justify-content-end">
-                <Col xs={1}>
-                    <div className="side-nav"><h2>Projects</h2></div>
-                </Col>
-                <Col md={11}>
-                <div className="about-card w-100">
-  
-                </div>
-                </Col>
+                    <Col xs={1}>
+                        <div className="side-nav"><h2>Projects</h2></div>
+                    </Col>
+                    <Col md={11}>
+                        <div className="project-list w-100">
+                            <a href="https://bitstuck.github.io/brewery-experience/" target="_blank">Brewery Experience</a><br />
+                            <a href="https://watchtogethr-aeeae66b60e6.herokuapp.com/Login" target="_blank">WatchTogethr</a><br />
+                            <a href="https://github.com/BitsTuck/ecomm-back-end" target="_blank">Ecommerce Backend</a><br />
+                            <a href="https://uta-note-taker-29970e8af26e.herokuapp.com/" target="_blank">Notetaker App</a><br />
+                            <br />
+                            <a href='' target="_blank">Resume • </a>
+                            <a href="https://github.com/BitsTuck" target="_blank">GitHub</a>
+
+
+                        </div>
+                    </Col>
                 </Row>
                 <Row className="justify-content-end">
-                <Col xs={1}>
-                    <div className="side-nav"><h2>Contact</h2></div>
-                </Col>
-                <Col md={11}>
-                <div className="about-card w-100">
-                    <p>
-                        Hello! Thank you for visiting my portfolio. I am Elizabeth Tucker, a Junior Web Developer and recent graduate of the University of Texas at Austin's Full-Stack MERN Coding Bootcamp.
-                        <br />
-                        <br />
-                        Below, you will find a selection of projects I worked on for the course, as well as personal projects (coming soon!)
-                        <br />
-                        <br />
-                        Prior to my time at UTA, I worked in Operations and IT for a small import company. I was also an Adult Programming Librarian at the Henry Carter Hull Library in Clinton, Connecticut. I do not have any formal IT training, but my time in both of those positions gave me a wealth of knowledge-- and a number of strategies to seek the answers that I don't have on hand.
-                        <br />
-                        <br />
-                        Thanks for stopping by! I look forward to hearing from you.
-                    </p>
-                </div>
-                </Col>
+                    <Col xs={1}>
+                        <div className="side-nav"><h2>Contact</h2></div>
+                    </Col>
+                    <Col md={11}>
+                        <div className="signup-form-container d-flex justify-content-center align-items-center">
+                            <div className="card text-white w-100" id='signupCard'>
+                                <h5 className="card-header">Contact Elizabeth</h5>
+                                <form className="card-body">
+                                    <div className="mb-3">
+                                        <label htmlFor="name" className="form-label">Name</label>
+                                        <input name="text" type="text" className="form-control" placeholder="Name"/>
+                                    </div>
+                                    <div className="mb-3">
+                                        <label htmlFor="email" className="form-label">Email</label>
+                                        <input name="email" type="email" className="form-control" placeholder="name@example.com" />
+                                    </div>
+                                    <div className="mb-3">
+                                        <label htmlFor="message" className="form-label">Message</label>
+                                        <input name="message" type="text" className="form-control" placeholder="Type your message here" />
+                                    </div>
+                                    <div className="col-auto d-flex justify-content-center">
+                                        <button type="submit" className="btn btn-danger">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="footer-row">
+                    <div className='footer'>
+                        <h3>© Elizabeth Tucker 2024</h3>
+                    </div>
                 </Row>
 
             </Container>
