@@ -6,14 +6,10 @@
 }
 
 body {
-    background-color: #183C58;
-}
-
-.title {
-    background-image: url('./assets/background.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-
+   /*background-color: #183C58;*/
+   background-image: url('./assets/background.jpg');
+   background-repeat: no-repeat;
+   background-size: 100%;
 }
 
 .title h1 {
@@ -43,21 +39,27 @@ body {
     position: relative;
 }
 
-.navbar li {
+.navbar p {
     color: white;
-    font-size: 3rem;
-    display:inline;
+    font-size: 4rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin: 150px;
 
 }
 
 .about-card {
-    background-color: white;
+    background-color: #183C58;
+    color: white;
     width: 85%;
     font-size: 2rem;
     position: relative;
-    margin: 125px;
     padding: 10px;
     border-radius: .5rem;
+}
+
+.side-nav h2{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 4rem;
+    margin-inline: -5em;
+    
 }

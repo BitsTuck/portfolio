@@ -7,19 +7,17 @@ const Header = () => {
     return (
         <>
 
-        <div className="title">
+            <div className="title">
                 <h1>Elizabeth Tucker</h1>
             </div>
-        <nav>
-            <div className="navbar">
-                <ul>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
-                </ul>
+            <nav>
+                <div className="navbar">
+                    <p>
+                        Developer
+                    </p>
 
-            </div>
-        </nav>
+                </div>
+            </nav>
         </>
     )
 }
