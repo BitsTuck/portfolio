@@ -2,14 +2,15 @@ const typeDefs = `
 type Contact {
     name: String!
     email: String!
+    message: String!
 }
 
 type Query {
-    contact(name: String, email: String): Contact
+    contact(name: String, email: String, message: String): Contact
 }
 
 type Mutation {
-    createContact(name: String!, email: String!): Contact
+    createContact(name: String!, email: String!, message: String!): Contact
 }`
 
 module.exports = typeDefs
