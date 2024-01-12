@@ -10,7 +10,7 @@ const Home = () => {
                     <Col xs={1}>
                         <div className="side-nav"><h2>About</h2></div>
                     </Col>
-                    <Col md={10}>
+                    <Col md={11}>
                         <div className="about-card w-100">
                             <p>
                                 Hello! Thank you for visiting my portfolio. I am Elizabeth Tucker, a Junior Web Developer and recent graduate of the University of Texas at Austin's Full-Stack MERN Coding Bootcamp.
@@ -33,7 +33,7 @@ const Home = () => {
                             <a href="https://github.com/BitsTuck/ecomm-back-end" target="_blank">Ecommerce Backend</a><br />
                             <a href="https://uta-note-taker-29970e8af26e.herokuapp.com/" target="_blank">Notetaker App</a><br />
                             <br />
-                            <a href='' target="_blank">Resume • </a>
+                            <a href='' target="_blank">Resume</a><a> • </a>
                             <a href="https://github.com/BitsTuck" target="_blank">GitHub</a>
 
 
@@ -69,12 +69,6 @@ const Home = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row className="footer-row">
-                    <div className='footer'>
-                        <h3>© Elizabeth Tucker 2024</h3>
-                    </div>
-                </Row>
-
             </Container>
         </>
     )
