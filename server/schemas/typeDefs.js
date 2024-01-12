@@ -6,7 +6,7 @@ type Contact {
 }
 
 type Query {
-    contact(name: String, email: String, message: String): Contact
+    contact(name: String!, email: String!, message: String!): Contact
 }
 
 type Mutation {
