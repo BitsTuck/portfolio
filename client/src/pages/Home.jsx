@@ -5,7 +5,7 @@ import { useMutation } from '@apollo/client';
 import { CREATE_CONTACT } from '../utils/mutations'
 import { useState } from 'react'
 
-const Home = () => {
+const Contact = () => {
     const [formState, setFormState] = useState({
         name: '',
         email: '',
@@ -36,6 +36,12 @@ const Home = () => {
         } catch (error) {
             console.error(error);
         }
+
+        setFormState({
+            name: '',
+            email: '',
+            message: '',
+        });
     };
 
 
@@ -87,7 +93,7 @@ const Home = () => {
                                 <form className="card-body" onSubmit={handleFormSubmit}>
                                     <div className="mb-3">
                                         <label htmlFor="name" className="form-label">Name</label>
-                                        <input name="text" type="text" className="form-control" placeholder="Name" value={formState.name} onChange={handleChange}/>
+                                        <input name="name" type="text" className="form-control" placeholder="Name" value={formState.name} onChange={handleChange}/>
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="email" className="form-label">Email</label>
@@ -110,4 +116,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Contact;
