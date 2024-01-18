@@ -1,7 +1,7 @@
-import background from "../assets/background.jpg"
-// import React from 'react'
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
+// import background from "../assets/background.jpg"
+import React from 'react'
+// import { Link } from 'react-router-dom';
+// import { useState } from 'react';
 
 const Header = () => {
     return (
