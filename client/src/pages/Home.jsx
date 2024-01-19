@@ -15,7 +15,6 @@ const Contact = () => {
 
     const handleChange = (event) => {
         const { name, value } = event.target;
-
         setFormState((prevFormState) => ({
             ...prevFormState,
             [name]: value,
@@ -93,15 +92,15 @@ const Contact = () => {
                                 <form className="card-body" onSubmit={handleFormSubmit}>
                                     <div className="mb-3">
                                         <label htmlFor="name" className="form-label">Name</label>
-                                        <input name="name" type="text" className="form-control" placeholder="Name" value={formState.name} onChange={handleChange}/>
+                                        <input name="name" type="name" className="form-control" placeholder="Name" value={formState.name} onChange={handleChange} />
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="email" className="form-label">Email</label>
-                                        <input name="email" type="email" className="form-control" placeholder="name@example.com" value={formState.email} onChange={handleChange}/>
+                                        <input name="email" type="email" className="form-control" placeholder="name@example.com" value={formState.email} onChange={handleChange} />
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="message" className="form-label">Message</label>
-                                        <input name="message" type="text" className="form-control" placeholder="Type your message here" value={formState.message} onChange={handleChange}/>
+                                        <textarea name="message" type="text" className="form-control" placeholder="Type your message here" value={formState.message} onChange={handleChange} />
                                     </div>
                                     <div className="col-auto d-flex justify-content-center">
                                         <button type="submit" className="btn btn-danger">Send</button>
