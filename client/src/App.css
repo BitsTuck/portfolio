@@ -1,5 +1,54 @@
 body {
     /* background-image: url('./assets/background.jpg'); */
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1452px) {
+    body {
+        background-size: cover;
+        background-position: center
+    }
+}
+
+@media screen and (min-width: 2195px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    body {
+        background-size: cover;
+        background-position: center
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-size: cover;
+        background-position: center
+    }
+}
+
+@media screen and (min-width: 430px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
 }

@@ -74,7 +74,7 @@ const Contact = () => {
                             <a href="https://github.com/BitsTuck/ecomm-back-end" target="_blank">Ecommerce Backend</a><br />
                             <a href="https://uta-note-taker-29970e8af26e.herokuapp.com/" target="_blank">Notetaker App</a><br />
                             <br />
-                            <a href='https://drive.google.com/file/d/1BFBRvMwtQa3GNJ3GPiwmUU-nfHstgw2E/view?usp=sharing' target="_blank">Resume</a><a> • </a>
+                            <a href='https://drive.google.com/file/d/1BFBRvMwtQa3GNJ3GPiwmUU-nfHstgw2E/view?usp=share_link' target="_blank">Resume</a><a> • </a>
                             <a href="https://github.com/BitsTuck" target="_blank">GitHub</a>
 
 
@@ -110,7 +110,7 @@ const Contact = () => {
                         </div>
                     </Col>
                 </Row>
-            </Container>
+            </Container >
         </>
     )
 }

@@ -16,6 +16,8 @@ body {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
 }
 .title h1 {
     font-family: 'La Belle Aurore', cursive;
@@ -67,6 +69,9 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 4rem;
     margin-inline: -5em;
+    display: flex;
+    flex-direction: column;
+
     
 }
 
@@ -81,10 +86,12 @@ body {
 
 .btn-danger {
     background-color: #183C58;
+    border-color:#183C58;
 }
 
 .btn-danger:hover {
-    background-color: #6980EE
+    background-color: #6980EE;
+    border-color: #6980EE;
 }
 
 .mb-3 {
